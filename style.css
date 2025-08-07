@@ -4,10 +4,38 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    color: #d3d3d3;
 }
 
 body{
     font-family: 'gilroy';
-    color: #d3d3d3;
-    background-color: #181f2b;
+    background-image: url('gta-6-official-logo-3840x2160-13622.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #0f0f10;
+    box-shadow: 5px 5px 10px rgba(107, 0, 161, 0.37);
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    font-size: 4vw;
+    align-items: center;
+    color: transparent;
+    -webkit-text-stroke: .8px #7b24de;
 }
