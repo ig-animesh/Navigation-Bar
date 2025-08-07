@@ -34,7 +34,7 @@ nav a{
     height: 100%;
     padding: 0 30px;
     display: flex;
-    font-size: 3.4vw;
+    font-size: 25px;
     align-items: center;
     color: transparent;
     -webkit-text-stroke: .8px #7b24de;
@@ -70,4 +70,22 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
+}
+.menuBtn{
+    display: none;
+}
+@media(max-width: 800px){
+    /* max-width means 0 to 800px*/
+    .hideOnMobile{
+        display: none;
+    }
+    .menuBtn{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
 }
